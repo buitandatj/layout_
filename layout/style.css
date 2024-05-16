@@ -1,0 +1,92 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #F8FAFD !important;
+
+}
+.title h3{
+    color: #6f6f70;
+    font-weight: 700;
+}
+p{
+    font-size: 14px;
+}
+
+
+
+.tab.__responsive {
+    border-radius: 5rem;
+    display: flex;
+    width: 20%;
+
+
+}
+
+.tab {
+    --tw-bg-opacity: 1;
+    background-color:#e4e2e2; 
+    border-radius: 9999px;
+    display: flex;
+    padding: .25rem;
+}
+
+  .tab.__responsive .item {
+    display: flex;
+    justify-content: center;
+    border-radius: 5rem;
+    cursor: pointer;
+}
+  .tab .item.active {
+    --tw-border-opacity: 1;
+    --tw-bg-opacity: 1;
+    --tw-text-opacity: 1;
+    background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+    border-color: rgb(231 231 231 / var(--tw-border-opacity));
+    border-width: 1px;
+    color: rgb(17 17 17 / var(--tw-text-opacity));
+}
+
+  .tab :is(.dark .item) {
+    --tw-text-opacity: 1;
+    color: rgb(160 160 160 / var(--tw-text-opacity));
+}
+  .tab.__responsive .item {
+    border-radius: 5rem;
+}
+  .tab .item.active {
+    --tw-border-opacity: 1;
+    --tw-bg-opacity: 1;
+    --tw-text-opacity: 1;
+    background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+    border-color: rgb(231 231 231 / var(--tw-border-opacity));
+    border-width: 1px;
+    color: rgb(17 17 17 / var(--tw-text-opacity));
+}
+  .tab :is(.dark .item) {
+    --tw-text-opacity: 1;
+    color: rgb(160 160 160 / var(--tw-text-opacity));
+}
+  .tab .item {
+    --tw-text-opacity: 1;
+    border-radius: 9999px;
+    color: rgb(112 112 112 / var(--tw-text-opacity));
+    flex: 1 1 0%;
+    font-size: .75rem;
+    line-height: 1rem;
+    padding-bottom: .5rem;
+    padding-left: .25rem;
+    padding-right: .25rem;
+    padding-top: .5rem;
+}
+  .tab .item {
+    --tw-text-opacity: 1;
+    border-radius: 9999px;
+    color: rgb(112 112 112 / var(--tw-text-opacity));
+    flex: 1 1 0%;
+    font-size: .75rem;
+    line-height: 1rem;
+    padding-bottom: .5rem;
+    padding-left: .25rem;
+    padding-right: .25rem;
+    padding-top: .5rem;
+}
